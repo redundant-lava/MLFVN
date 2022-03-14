@@ -3,7 +3,7 @@ label happy_ending:
       show catnoir
       a "I'm Cat Noir"
       hide catnoir
-      show adrien
+      show adrien happy
       pause
       show marinette at left
       m "I love you"
@@ -19,7 +19,7 @@ label superhappy_ending:
       scene chapel
       show marinette
       m "I knew you were Chat"
-      show adrien at right
+      show adrien happy at right
       a "WHUT?! BUT HOW?"
       m ".. uh... you mean it wasn't obvious...?"
       a "Um, it was supposed to be a secret... right?"

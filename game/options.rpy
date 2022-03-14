@@ -207,3 +207,7 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
+## Customizations ###################################
+define config.mouse = { }
+define config.mouse['default'] = [ ( "gui/plagg.png", 60, 87) ]

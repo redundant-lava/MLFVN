@@ -7,13 +7,6 @@ define m = Character("Marinette")
 define l = Character("Luka")
 define a = Character("Adrien")
 
-image marinette = im.Scale("marinette.png", 400, 700)
-image adrien = im.Scale("adrien.png", 200, 600)
-image catnoir = im.Scale("catnoir.png", 700, 700)
-image ladybug = im.Scale("ladybug.png", 500, 700)
-image luka = im.Scale("luka.png", 300, 700)
-
-image airport = im.Scale("airport.jpeg", 1280, 720)
 
 
 # The game starts here.
@@ -26,9 +19,8 @@ label start:
 
     scene room
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    # This shows a character sprite.
+
 
     show marinette at left
 

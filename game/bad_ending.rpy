@@ -15,7 +15,6 @@ label bad_ending_amnesia:
       return
       
 label bad_ending_affection:
-      scene polaroid picture
       show marinette at left
       show luka at right
       m "I'm running away with Luka"
