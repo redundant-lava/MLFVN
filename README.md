@@ -3,8 +3,8 @@ MLF Visual Novel is built using Ren'Py. See the [Ren'Py Documentation](https://w
 
 ## Current Build
 The MLF Visual Novel is still in development. To run the most recent build, download the zip file for your system:  
->[mlfvn-1.0-pc.zip](https://github.com/redundant-lava/MLFVN/blob/main/mlfvn-1.0-pc.zip) for Windows and Linux Systems.  
->[mlfvn-1.0-mac.zip](https://github.com/redundant-lava/MLFVN/blob/main/mlfvn-1.0-mac.zip) for Mac. 
+>[mlfvn-1.0-pc.zip](https://drive.google.com/file/d/1Q4xvcPu3Qd2hoAi62wmsScL3JM6nfA1o/view?usp=sharing) for Windows and Linux Systems.  
+>[mlfvn-1.0-mac.zip](https://drive.google.com/file/d/1DLoQttXzhOxoWKUDggnqg7e3oaszUkY2/view?usp=sharing) for Mac. 
 
 ## Explanation of Files
 All game files are in the `game` folder
@@ -28,7 +28,7 @@ Each chapter starts with a `label ch_##:` and ends with a `jump` to the next cha
 - Wine Aunt Branch - *not implemented*
 
 ### Visual Assets
-Backgrounds and Character Sprites are located in `game/images`.  There are limitted original assets complete at this time. Placeholder assets are all black and white and marked "PLACEHOLDER" (14.03.2022)
+Backgrounds and Character Sprites are located in `game/images`.  There are limitted original assets complete at this time. Placeholder assets are all black and white and marked "PLACEHOLDER" (14.03.2022). Due to github file size limits larger versions of the art assets are not available on this repository and are instead stored on private cloud storage accessible by the art team.
 
 ### User Interface
 Files related to the GUI are in `game/gui`.  
