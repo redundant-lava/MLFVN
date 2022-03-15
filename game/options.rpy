@@ -48,7 +48,7 @@ define build.name = "mlfvn"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
@@ -210,4 +210,4 @@ init python:
 
 ## Customizations ###################################
 define config.mouse = { }
-define config.mouse['default'] = [ ( "gui/plagg.png", 60, 87) ]
+define config.mouse['default'] = [ ( "gui/plagg.png", 60, 60) ]

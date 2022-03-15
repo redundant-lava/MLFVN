@@ -1,4 +1,4 @@
-Sun Mar 13 22:58:23 2022
+Mon Mar 14 21:56:32 2022
 Darwin-21.3.0-x86_64-i386-64bit
 Ren'Py 7.4.11.2266
  
@@ -6,16 +6,16 @@ Ren'Py 7.4.11.2266
 Bootstrap to the start of init.init took 0.07s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.02s
+Loading error handling took 0.01s
 Loading script took 0.06s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.03s
-Loading analysis data took 0.02s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.05s
+Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s

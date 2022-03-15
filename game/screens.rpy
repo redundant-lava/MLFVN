@@ -747,6 +747,12 @@ screen preferences():
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
+                vbox:
+                    style_prefix "radio"
+                    label _("Difficulty")
+                    #textbutton _("Hard") action SetField(persistent, "difficulty", 2)
+                    textbutton _("Normal") action SetField(persistent, "difficulty", 1)
+                    textbutton _("Developer Mode") action SetField(persistent, "difficulty", 0)
 
             null height (4 * gui.pref_spacing)
 
