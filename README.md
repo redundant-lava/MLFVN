@@ -37,11 +37,13 @@ Files related to the GUI are in `game/gui`.
 Currently all custom game mechanics are handled within the script file.  
 #### Character Metrics
 *Affection Meter*
-stored in global variable `aff`.  
+Stored in global integer variable `aff`. This variable tracks Marinette's affection for Adrien. `aff` starts the game with a value of 0 (no affection). Higher positive numbers correspond to higher affection. A negative `aff` value corresponds to dislike.
+
 *Amnesia Meter*
-Stored in global variable `amn`.  
+Stored in global variable `amn`. This variable tracks Marinette's Amnesia. `amn` starts the game with a value of 0. Lower (negative) values are "better" in that they mean Marinette is remembering more.
+
 *Luka Affection Meter*
-Stored in global variable `Laff`. 
+Stored in global variable `Laff`. This variable tracks Marinette's affection for Luka. `Laff` starts the game with a value of 0 (no affection). Higher positive numbers correspond to higher affection. A negative `Laff` value corresponds to dislike.
 
 #### Decision History
 *not implemented*
