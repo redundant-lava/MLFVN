@@ -18,14 +18,17 @@ The VN currently supports four possible endings:
 - `happy_ending.rpy` contains two varations of the happy ending.   
 - `neutral_ending.rpy` contains a neutral ending.  
 
+There should be no return statements in the ending files as they should all jump back to the `ending_screen` label in the main script file.
+
 #### Chapters
-*not implemented*
+Each chapter is in its own `.rpy` file, titled `ch_##.rpy` where ## is the chapter number.  
+Each chapter starts with a `label ch_##:` and ends with a `jump` to the next chapter. There should be no return statements in the chapter files as all game endings should direct to the appropriate ending file and then the ending screen.
 
 #### Branches
 - Wine Aunt Branch - *not implemented*
 
 ### Visual Assets
-Backgrounds and Character Sprites are located in `game/images`.  There are no original assets complete at this time, so all visuals in the current build are placeholders (06.03.2022)
+Backgrounds and Character Sprites are located in `game/images`.  There are limitted original assets complete at this time. Placeholder assets are all black and white and marked "PLACEHOLDER" (14.03.2022)
 
 ### User Interface
 Files related to the GUI are in `game/gui`.  
@@ -33,7 +36,13 @@ Files related to the GUI are in `game/gui`.
 ### Custom Game Mechanics
 Currently all custom game mechanics are handled within the script file.  
 #### Character Metrics
-*not implemented*
+*Affection Meter*
+stored in global variable `aff`.  
+*Amnesia Meter*
+Stored in global variable `amn`.  
+*Luka Affection Meter*
+Stored in global variable `Laff`. 
+
 #### Decision History
 *not implemented*
 #### Animations and Transitions
